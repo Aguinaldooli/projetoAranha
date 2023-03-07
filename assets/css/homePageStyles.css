@@ -110,7 +110,7 @@ body::before {
 }
 
 .sControllerButton:nth-child(2){
-    margin 0 3.75rem;
+    margin: 0 3.75rem;
 }
 
 .sControllerLine {
