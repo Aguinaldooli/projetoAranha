@@ -1,4 +1,6 @@
 @import url("reset.css");
+@import url("global.css");
+@import url("components/navigator.css");
 
 .sWrapper {
     display: flex;
@@ -20,3 +22,4 @@
     width: 100%;
     background-color: gray;
 }
+
