@@ -1,6 +1,7 @@
 @import url("reset.css");
 @import url("global.css");
 @import url("components/navigator.css");
+@import url("components/pills.css");
 
 .sWrapper {
     display: flex;
@@ -11,15 +12,42 @@
 .sWrapper .sLeftColumn {
     width: 100px;
     height: 100%;
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    position: fixed;
+    padding-right: 50px;
+    left: 0;
+    top: 0;
+    z-index: 1;
 }
 
 .sWrapper .sMainContent {
     height: 100%;
     width: 100%;
     background-color: gray;
+    padding-left: 130px;
 }
+
+.sWrapper .sMainContentTop {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sWrapper .sMainContentBotton {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sWrapper .sMainContent .sLogo img{
+    margin-top: 50px;
+    margin-left: 0;
+    margin-bottom: 30px;
+    }
+
 
